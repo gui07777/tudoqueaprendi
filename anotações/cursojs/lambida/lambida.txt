@@ -1,0 +1,2 @@
+a função lâmbida é uma outra forma de se criar uma função.
+As duas vão funcionar da mesma forma.

@@ -1,0 +1,33 @@
+Medidas relativas: porcentagem, em
+Medidas absolutas: px
+
+
+
+Quando usar?
+
+font-size: rem
+
+margins e paddings: em
+
+widths: em ou %
+
+pixel: pontos específicos que você sabe que não vai alterar na hora da responsividade
+
+
+
+Media Querie: é um elemento que podemos usar para determinar alguma condição no css,
+por exemplo:
+
+(no css)>>>>>>>>              @media (min-width: 600px) and (max-width: 1200px) {
+
+                                    body{
+                                        background-color: blue;
+                                    } 
+                             
+                              }
+
+                Explicação: quando o mínimo de largura for 600px e o máximo de largura for 1200px (ou seja, entre 600px e 1200px),
+                a cor de fundo mudará para azul.
+
+
+

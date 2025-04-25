@@ -1,0 +1,59 @@
+Coônteiner Flex: elemento pai com display:flex (inicio do recurso);
+Itens flex: elementos filhos diretos do conteiner flex;
+Eixo Principal(Main Axis): direção definida por flex-direction (row, row-reverse, column, column-reverse)
+
+
+PROPRIEDADES DO CONTEINER
+
+flex-direction: direção dos itens;
+flexwrap: quebra de linha(nowrap, wrap, wrap-reverse);
+justify-content: alinhamento no eixo principal(flex-start, flex-end, center, space-between, space-around, space-evenly);
+align-itens: alinhamento no eixo cruzado (stretch, flex-start, flex-end, center, baseline);
+align-content: alinhamento de linhas no eixo cruzado quando há espaço extra;
+gap: espaçamento de itens do flex que usa no container pai. Se tiver gap:10x, haverá espaçamento de 10px entre os elementos do pai;
+
+PROPRIEDADES DOS Itens
+
+order: ordem de exibição dos itens;
+flex-grow: capacidade de crescer para preencher espaço disponível;
+flex-shrink: capacidade de encolher quando necessário;
+flex-basis: tamanho inicial do item antes da distribuição de espaço;
+flex: atalho para flex-grow, flex-shrink e flex-basis;
+align-self: alinhamento individual de um item no eixo cruzado;
+
+INFORMAÇÕES EXTRAS
+
+- A direção do flex por padrão é linha (flex-direction:row); Pra mudar pra coluna ----> (flex-direction:column)
+
+- Wrap = quebra de linha. Ou ele vai espremer os itens pra caber na mesma linha ou vai quebrar pra outra linha,
+         respeitando a largura do item.
+
+         (flex-wrap: nowrap): Padrão. Quando a tela vai diminuindo, os itens vão sendo espremidos na mesma linha diminuindo sua largura pra caber na tela.
+         (flex-wrap: wrap): Enquanto a tela vai diminuindo, os itens vão sendo embrulhados. Sua largura vai ser respeitada, porém, as linhas vão sendo quebradas.
+
+ALINHAMENTO HORIZONTAL
+
+- justify-content-center: alinha elementos ao centro horizontalmente.
+
+- justify-space-between: coloca espaço igual entre os itens.
+
+- justify-content: flex-end: coloca os itens começando do final da linha.
+
+- justify-space-around: coloca espaço igual entre os itens e um espaço ao redor.
+
+- justify-space-evenly: tentativa de espaçamento igual entre os itens e ao redor dele.
+
+    * todas essas propriedades mantém a integridade dos itens, ou seja, não altera seus tamanhos, respeita.
+
+
+ALINHAMENTO VERTICAL
+
+- align-items:stretch ---> Padrão. Os itens vão se esticar pra cobrir toda a altura padrão.
+
+- align-items: start ---> os itens vão respeitar sua altura e não esticar até o máximo começando do início da coluna.
+
+- align-items: end ---> mesma coisa só que vão começar do final da coluna.
+
+- align-items-center ---> alinhar ao centro.
+
+- align-items: baseline ---> 

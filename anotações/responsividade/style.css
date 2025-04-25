@@ -1,0 +1,64 @@
+:root {
+    --cor-de-fundo: #00030c;
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400; /* peso: proximidade do negrito */
+    max-height: 100vh;
+}
+
+.container_bt1{
+    background: var(--botao-azul);
+    color: var(--branco-principal);
+    padding: 1em;
+    border-radius: 5px;
+    text-decoration: none; /*tira o sublinhado que vem com a tag a*/
+    margin-bottom: 1em;
+    display:block;
+   
+}
+.bt2{
+    background: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.principal{
+    background-image: url("https://github.com/balta-io/3007/blob/main/src/img/Background.png?raw=true");
+    background-repeat: no-repeat; /* a imagem não vai se repetir várias vezes */
+    background-size: contain; /*o tamanho do background vai ser disposto conforme aquilo em que está inserido (não ultrapassa o tamanho, nem perder qualidade)*/
+    align-items: center;
+    text-align:center;
+}
+
+.container{
+    display: grid; 
+    grid-template-columns: repeat(2, 50%); /*define duas colunas de 50% de largura cada*/
+    height: 100vh; /*utiliza todo o tamanho disponível na section*/
+}
+
+.container_caixa{
+    margin: 0 6em ;
+}
+
+.container_titulo{
+    font-size:28px;
+    font-weight: 700;
+}
+
+.container_imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container_aviso {
+    font-size:12px;
+    color: var(--cinza-secundario);
+}

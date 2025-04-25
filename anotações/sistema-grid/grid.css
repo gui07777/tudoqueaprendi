@@ -1,0 +1,13 @@
+.conteiner {
+    height: 250px;
+    background: green;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 7px;
+}
+
+.item {
+    background-color: rgb(251, 255, 0);
+    padding: 5px;
+}

@@ -1,0 +1,16 @@
+Como funciona um laço
+
+A estrutura de laço de repetição funciona basicamente com a definição de um ponto de partida,
+condição e incrementação. A partir de um determinado ponto de partida deve haver uma condição 
+para ocorrer a incrementação de alguma coisa.
+
+1. Ponto de partida
+2. condição
+3. Incrementar
+
+
+
+Incrementação e decrementação.
+
+Incrementar: ocorre uma condição, avança/adiciona uma posição.
+Decrementar: ocorre uma condição, volta/reduz uma posição.

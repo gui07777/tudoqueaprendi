@@ -1,0 +1,11 @@
+<td>
+<div class="quantity">
+<button (click)="decreaseQuantity(${product.id})">
+<i class="bx bx-minus"></i>
+</button>
+<span>${product.quantity}</span>
+<button (click)="increaseQuantity(${product.id})">
+<i class="bx bx-plus"></i>
+</button>
+</div>
+</td>

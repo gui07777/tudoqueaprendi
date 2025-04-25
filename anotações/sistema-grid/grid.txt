@@ -1,0 +1,6 @@
+Sistema de 12 colunas, totalmente responsivo.
+
+container: busca algum meio de centralizar horizontalmente o conteúdo da sua página, com ele, é possível ter uma largura responsiva em pixels.
+container-fluid: permite ter uma width: 100% em qualquer tela de visualização (não é pixel).
+
+Rows: são elementos para envolver colunas.
